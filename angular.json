@@ -88,6 +88,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "numgame:build:production",
+              "serveTarget": "numgame:serve:production"
+            },
+            "development": {
+              "buildTarget": "numgame:build:development",
+              "serveTarget": "numgame:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

@@ -1,0 +1,106 @@
+.container {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 105vh;
+
+    width: auto;
+
+    margin: -10px;
+    
+}
+
+
+.game-container {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.total-guess {
+    margin-top: 1vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.total-guess p {
+    color: white;
+}
+
+.guess-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 10vh;
+}
+
+.guess-container input {
+    width: 15vw;
+    height: 30vw;
+
+    margin: 0.5vw;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255,0.7);
+    font-size: x-large;
+    text-align: center;
+    color: white;
+
+}
+
+.make-guess-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.make-guess-container button{
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+    height: 5vh;
+
+    font-size: large;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 5.3px rgba(0,0,0,0.8);
+    color: black;
+    
+}
+
+.make-guess-container button:focus{
+
+    color: black;
+    
+}
+
+.previous-guess-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    flex-direction: column;
+
+    border: none;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: auto;
+}
+
+.previous-guess-container .guess{
+    display: flex;
+    flex-direction: row;
+    margin-top: -2vh;
+}
+
+.previous-guess-container .guess p {
+    color: coral;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    font-size: 1.2em;
+}

@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "numgame",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

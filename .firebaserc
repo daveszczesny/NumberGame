@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "numbergame-7af8c": {
+      "hosting": {
+        "numgame": [
+          "numbergame-7af8c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "numbergame-7af8c"
+  }
+}
